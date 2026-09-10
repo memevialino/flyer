@@ -19,6 +19,11 @@ jobs:
           unzip -o flyer-route-hunter-v0.1.zip -d .
           rm flyer-route-hunter-v0.1.zip
 
+      - name: Remove bundled workflows
+        run: |
+          rm -rf .github/workflows/pages.yml
+          rm -rf .github/workflows/refresh-data.yml
+
       - name: Commit extracted files
         run: |
           git config user.name "github-actions[bot]"
