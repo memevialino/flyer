@@ -1,0 +1,62 @@
+{
+  "airport": {
+    "iata": "JUZ",
+    "name": "Quzhou Airport",
+    "city": "Quzhou",
+    "province": "Zhejiang",
+    "lat": 28.9658,
+    "lon": 118.899
+  },
+  "generatedAt": "2026-09-10T00:00:00Z",
+  "source": "demo",
+  "rounds": [
+    {
+      "id": "juz-demo-001",
+      "origin": "JUZ",
+      "destination": "CKG",
+      "answer": {
+        "airline": "China Express Airlines",
+        "destination": "CKG",
+        "aircraft": "CRJ900",
+        "flightNumber": "DEMO"
+      },
+      "options": [
+        {
+          "id": "A",
+          "airline": "China Eastern Airlines",
+          "destination": "CKG",
+          "aircraft": "ATR 72-600",
+          "verdict": "INVALID"
+        },
+        {
+          "id": "B",
+          "airline": "China Express Airlines",
+          "destination": "CKG",
+          "aircraft": "CRJ900",
+          "verdict": "VALID"
+        },
+        {
+          "id": "C",
+          "airline": "Tianjin Airlines",
+          "destination": "CAN",
+          "aircraft": "Dash 8 Q400",
+          "verdict": "INVALID"
+        },
+        {
+          "id": "D",
+          "airline": "Chengdu Airlines",
+          "destination": "KMG",
+          "aircraft": "C909",
+          "verdict": "INVALID"
+        },
+        {
+          "id": "E",
+          "airline": "Shenzhen Airlines",
+          "destination": "SZX",
+          "aircraft": "737-700",
+          "verdict": "INVALID"
+        }
+      ]
+    }
+  ]
+}

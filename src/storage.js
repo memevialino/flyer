@@ -1,0 +1,1 @@
+const KEY="route-hunter-state-v1";export function loadState(){const r=localStorage.getItem(KEY);if(!r)return null;try{return JSON.parse(r)}catch{return null}}export function saveState(s){localStorage.setItem(KEY,JSON.stringify(s))}export function clearState(){localStorage.removeItem(KEY)}

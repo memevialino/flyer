@@ -1,0 +1,1 @@
+export function createShareUrl(state){const payload={airport:state.currentAirport,correct:state.correct,wrong:state.wrong,lives:state.lives,journey:state.journey};const bytes=new TextEncoder().encode(JSON.stringify(payload));let bin="";bytes.forEach(b=>bin+=String.fromCharCode(b));const url=new URL(window.location.href);url.hash=`share=${btoa(bin)}`;return url.toString()}

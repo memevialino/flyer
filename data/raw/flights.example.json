@@ -1,0 +1,37 @@
+[
+  {
+    "origin": "JUZ",
+    "destination": "CKG",
+    "airline": "China Express Airlines",
+    "flightNumber": "G5DEMO",
+    "aircraft": "CRJ900"
+  },
+  {
+    "origin": "JUZ",
+    "destination": "CAN",
+    "airline": "China Southern Airlines",
+    "flightNumber": "CZDEMO",
+    "aircraft": "A320"
+  },
+  {
+    "origin": "JUZ",
+    "destination": "KMG",
+    "airline": "China Eastern Airlines",
+    "flightNumber": "MUDEMO",
+    "aircraft": "737-800"
+  },
+  {
+    "origin": "JUZ",
+    "destination": "SZX",
+    "airline": "Shenzhen Airlines",
+    "flightNumber": "ZHDEMO",
+    "aircraft": "A320"
+  },
+  {
+    "origin": "JUZ",
+    "destination": "PEK",
+    "airline": "Air China",
+    "flightNumber": "CADEMO",
+    "aircraft": "A320"
+  }
+]

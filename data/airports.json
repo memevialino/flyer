@@ -1,0 +1,42 @@
+{
+  "JUZ": {
+    "iata": "JUZ",
+    "name": "Quzhou Airport",
+    "city": "Quzhou",
+    "province": "Zhejiang",
+    "lat": 28.9658,
+    "lon": 118.899
+  },
+  "CKG": {
+    "iata": "CKG",
+    "name": "Chongqing Jiangbei International Airport",
+    "city": "Chongqing",
+    "province": "Chongqing",
+    "lat": 29.7192,
+    "lon": 106.6417
+  },
+  "KMG": {
+    "iata": "KMG",
+    "name": "Kunming Changshui International Airport",
+    "city": "Kunming",
+    "province": "Yunnan",
+    "lat": 25.1019,
+    "lon": 102.9292
+  },
+  "CAN": {
+    "iata": "CAN",
+    "name": "Guangzhou Baiyun International Airport",
+    "city": "Guangzhou",
+    "province": "Guangdong",
+    "lat": 23.3924,
+    "lon": 113.2988
+  },
+  "SZX": {
+    "iata": "SZX",
+    "name": "Shenzhen Bao'an International Airport",
+    "city": "Shenzhen",
+    "province": "Guangdong",
+    "lat": 22.6393,
+    "lon": 113.8107
+  }
+}
